@@ -1,0 +1,311 @@
+/*页面全局样式——父元素*/
+body {
+	font-family:arial;
+	font-size:12px; 			/*文字大小为12px*/
+	padding:0px; 			/*内边距为0px*/
+	margin:0px; 			/*外边距为0px*/
+	background:#f8f8f8; 		/*浅灰色背景*/
+}
+a{
+	text-decoration:none; 		/*链接无修饰*/
+}
+img{
+	border:none; 			/*图像无边框*/
+}
+.top{
+	width:1000px;           /*页面主体宽度为1000px*/
+	height:460px;
+	margin:auto; 			/*上下左右都自动适应*/
+	background:#fff; 		/*白色背景*/
+	padding:3px; 			/*内边距为3px*/
+	position: relative;
+}
+.top1{
+	width:1000px;           /*页面主体宽度为1000px*/
+	height:60px;
+	margin:auto; 			/*上下左右都自动适应*/
+	background:#fff; 		/*白色背景*/
+	padding:3px; 			/*内边距为3px*/
+	position: relative;
+}
+.main {						/*设置页面主体的样式*/
+	position: relative;
+	width:1000px;           /*页面主体宽度为1000px*/
+	height:400px;
+	margin:auto; 			/*上下左右都自动适应*/
+	background:#fff; 		/*白色背景*/
+	padding:3px; 			/*内边距为3px*/
+	
+}
+
+.abc2{
+	position: relative;
+	float: right
+	;
+	
+}
+.bcd{
+	position: absolute;
+
+}
+
+.jianjie{
+	position: relative;
+	width: 1000px;
+	height: auto;
+	float:center;
+	margin:auto;
+	border-width:4px;
+	border-radius:7px 7px 7px 7px;
+}
+.jianjie-biaoti{
+	font-family: "black-ops-one";
+	font-size: 40px;
+	
+	font-weight: 800;
+}
+.jianjie-biaoti:hover{
+	font-size: 45px;
+	font-weight: 900;
+}
+.jianjie-biaoti2{
+	font-family: "black-ops-one";
+	font-size: 22px;
+	
+	font-weight: 600;
+	
+}
+.jianjie-biaoti1{
+	font-family: "black-ops-one";
+	font-size: 30px;
+	font-weight: 600;
+	text-indent: 1em;
+	
+}
+.jianjie-biaoti3{
+	font-family: "black-ops-one";
+	font-size: 30px;
+	font-weight: 600;
+	text-indent: 1em;
+	
+}
+.jianjie-biaoti3:hover{
+	font-size: 35px;
+	font-weight: 700;
+	color: blue;
+}
+.jianjie-tupian{
+	position: relative;
+	left: 5px;
+	float: right;
+	cursor: pointer;
+	transform: all 0.2s;
+}
+.jianjie-tupian:hover{
+	transform: scale(1.2);
+}
+
+.jianjie-neirong{
+	font-family: neuton;
+	font-size: 16px;
+	color: #000000;
+	text-indent: 2em;
+	line-height: 200%;
+	word-wrap: break-word;
+	text-align: left;
+	left: 5px;
+}
+.jianjie-neirong:hover{
+	font-weight: 800;
+	
+}
+.matter1{
+	width:837px;
+	height:600px;
+	margin:auto;
+	overflow:hidden;
+	margin-top:6px;
+}
+.matter2{
+	width:163px;
+	height:600px;
+	margin:auto;
+	overflow:hidden;
+	margin-top:6px;
+}
+.matter2 .right{
+	width:0px;
+	float:right;
+}
+.matter1 .left{
+	width:0px;
+	float:left;
+}
+/* 幻灯片广告样式 */
+.slider{
+	margin: 5px auto;
+	width: 1000px;
+	height: 329px;
+	position: absolute;
+
+	left: 10%
+	top: 516px;
+	top: 9px;
+}
+.conbox{		/* 播放面板样式 */
+	position: absolute;
+	float: left;
+	margin: auto;
+	padding: 8px 8px 8px 8px;
+	left: -10px;
+	top: -20px;
+}
+.switcher{
+	position: absolute;
+	bottom: 24px;
+	right: 357px;
+	float: right;
+	z-index: 99;
+}
+.switcher a{
+	background:#fff;
+	border:1px solid #D00000;
+	cursor:pointer;
+	float:left;
+	font-family:arial;
+	height:18px;
+	line-height:18px;
+	width:18px;
+	margin:4px;
+	text-align:center;
+	color:#D00000;
+}
+.switcher a.cur,.switcher a:hover{
+	background:#FF0000;
+	border:1px solid #D00000;
+	height:24px;
+	line-height:24px;
+	width:24px;
+	margin:0 2px;
+	color:#fff;
+	font-weight:800;
+}
+.ziye{
+	position: relative;
+	width: 1000px;
+	height: 1000px;
+	margin: auto; 			/*上下左右都自动适应*/
+	background: #EBEBEB; 		/*白色背景*/
+	padding:3px; 			/*内边距为3px*/
+	border-width:4px;
+	border-radius:7px 7px 7px 7px;
+}
+.ziye-left{
+	position:absolute;		/*相对定位*/
+	width: 280px;
+	height: auto;
+	margin:auto; 			/*上下左右都自动适应*/
+	 		/*白色背景*/
+	padding:3px; 
+	float:left;
+	font-family:Tahoma;
+	font-size:20px;		/*文字大小12px*/
+	color: #000000;		/*灰色文字*/
+}
+.ziye-right{
+	position: absolute;
+	left: 290px;
+	width: 700px;
+	height: auto;
+	margin:auto; 			/*上下左右都自动适应*/
+	 		/*白色背景*/
+	padding:3px; 
+	float:right;
+}
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:120px;
+	border-bottom:1px solid  #999;
+	font-size:20px;
+	text-align:center;
+}
+ul li {
+	position:relative;
+	list-style-type:none;			   /* 不显示项目符号*/
+	line-height:50px;
+	padding:0 0 0 13;
+}
+li ul {
+	position:absolute;
+	left:119px;
+	top:0;
+	display:none;
+}
+ul li a {
+	width:108px;
+	display:block;
+	text-decoration:none;
+	color:#666666;
+	background: #DADADA;
+	padding:5px;
+	
+	
+}
+ul li a:hover {
+	color:#0283DD;		/*文字青色*/
+	font-size: 23px;
+	font-weight: 600;
+}
+/*解决ul在IE下显示不正确的问题*/
+* html ul li {
+	float:left;
+	height:1%;
+}
+* html ul li a {
+	height:1%;
+}
+/* end */
+li:hover ul, li.over ul {
+	display:block;
+}
+.color{
+	background-color:#EBEBEB	/*奇数行菜单项背景色为浅灰色*/
+}
+.footer{
+	position: absolute;
+	line-height: 40px;
+	margin-bottom: 0px;
+	height: 80px;
+	width: 100%;
+}
+.banquan{
+	position: absolute;
+	line-height: 40px;
+	margin-bottom: 0px;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	background: #7D7D7D ;
+	font-family: neuton;
+	font-size: 16px;
+	color: #FEFEFE;
+	font-weight: 700;
+}
+.zi{
+	font-size:20px;
+	color: #000000;
+}
+.zi:hover{
+	font-size: 40px;
+	font-weight: 900;
+	color: #0415FA;
+}
+.ziti{
+	font-size: 40px;
+	font-weight: 900;
+	color: #0415FA;
+}
+@charset "utf-8";
+/* CSS Document */

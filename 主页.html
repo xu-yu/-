@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的大学</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	color: #1B3AF1;
+	font-size: 16px;
+}
+body {
+	background-color: #DBDCE1;
+}
+</style>
+<script type="text/javascript" src="js/player.js"></script>
+<script type="text/javascript" src="js/playerslider.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	// 焦点图片水平滚动
+	$("#slider1").Xslider({
+		// 默认配置
+		affect: 'scrollx', //效果  有scrollx|scrolly|fade|none
+		speed: 800, //动画速度
+		space: 6000, //时间间隔
+		auto: true, //自动滚动
+		trigger: 'mouseover', //触发事件 注意用mouseover代替hover
+		conbox: '.conbox', //内容容器id或class
+		ctag: 'div', //内容标签 默认为<a>
+		switcher: '.switcher', //切换触发器id或class
+		stag: 'a', //切换器标签 默认为a
+		current:'cur', //当前切换器样式名称
+		rand:false //是否随机指定默认幻灯图片
+	});
+	// 焦点图片垂直滚动
+	$("#slider2").Xslider({
+		affect:'scrolly',
+		ctag: 'div',
+		speed:400
+	});
+	// 焦点图片淡隐淡现
+	$("#slider3").Xslider({
+		affect:'fade',
+		ctag: 'div'
+	});
+	// 选项卡
+	$("#slider4").Xslider({
+		affect:'none',
+		ctag: 'div',
+		speed:10
+	});
+});
+</script><embed src="插入/纯音乐 - 菊次郎的夏天.mp3" hidden="true">
+</head>
+
+<body>
+<div class="time"align="center">
+     <div id="test" align="right"></div>
+<script >
+setInterval("test.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+</script>
+    </div>
+	
+<div class="top"><div class="bcd">
+	<p><a href="主页.html"><img src="image/太原师范学院logo.png"align="left" alt="" width="325px" height="80px" /></a></p>
+	</div>
+<p><a href="index.html"><img src="image/学校大门.jpeg"align="middle" alt="" width="1000px" height="360" align="middle"/></a></p>
+	<hr>
+	<table width="1000px" height="50px"border-bottom="0" align="center"bgcolor=#DBF7F9>
+  <tbody>
+    <tr>
+      <td width="20%" align="center"boder:none;><a  href="主页.html"><strong><div class="ziti">我的大学</div></strong></a></td>
+		<td width="20%" align="center" ><a href="教学区.html"><strong><div class="zi">教学区</div></strong></a></td>
+      <td width="20%" align="center"><a href="生活区.html"><strong><div class="zi">生活区</div></strong></a></td>
+      <td width="20%" align="center" ><a href="休闲区.html"><strong><div class="zi">休闲区</div></strong></a></td>
+      <td width="20%" align="center" ><a href="插入/太师导游图.exe"><strong><div class="zi">区域导航</div></strong></a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<hr align="center" noshade="noshade">
+<div class="main">
+ 
+      <div id="slider3" class="slider">
+        <div class="conbox">
+          <div><a href="#" title=""><img src="image/横1.jpg" width="1000" height="400" /></a></div>
+          <div><a href="#" title=""><img src="image/横2.jpg" width="1000" height="400" /></a></div>
+          <div><a href="#" title=""><img src="image/横3.jpg" width="1000" height="400" /></a></div>
+          <div><a href="#" title=""><img src="image/横4.jpg" width="1000" height="400" /></a></div>
+          <div><a href="#" title=""><img src="image/横6.jpg" width="1000" height="400" /></a></div>
+          <div><a href="#" title=""></a></div>
+        </div>
+<div class="switcher"> <a href="#" class="cur">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">5</a></div></div>
+	
+	</div>
+  
+	
+</div>
+	</br>
+	<div class="jianjie">
+	<div class="jianjie-biaoti">
+	  <a href="http://www.tynu.edu.cn/"><font color="#1B3AF1">我的大学</font></a>
+	</div>
+		<div class="jianjie-tupian"><p><img src="image/横1.jpg"align="right" alt="学校的湖" width="240px" height="150" /></p></div>
+		<div class="jianjie-neirong">太原师范学院（Taiyuan Normal University），简称“太原师院”，位于山西省晋中市、太原市，是一所以师范教育为主的专业涵盖经济学、法学、教育学、文学、历史学、理学、工学、管理学、艺术学等九大学科门类的省属全日制普通本科高等院校，拥有硕士学位授予权。
+太原师范学院于1999年3月经国家教育部批准，由分别成立于1988年、1958年、1929年的山西大学师范学院、太原师范专科学校和山西省教育学院合并组建而成。</div>
+		<p></p>
+	  <div class="jianjie-biaoti3"><a href="教学区.html"> 教学区	 </a> </div>
+		<div class="jianjie-tupian"><p><img src="image/横4.jpg"align="right" alt="学校的湖" width="240px" height="150" /></p></div>
+	  <div class="jianjie-neirong">进入太师的第一眼就是高耸矗立的教学楼，我们在这段时间里从“网友”变成了朋友，从陌生走到了熟悉，从无知变为了博学，无论是哪一座教学楼，都配备先进的教学设备和齐套的桌椅用具，为老师教学和学生求学提供了充足的条件。你听，那朗朗读书声；你看，那智慧碰撞出的火花；你闻，书香与花香是多么沁人心脾。走在师院，你会看见学子们眼睛里闪烁着求知的欲望，老师们燃烧着教学的热情，师生共同建设着内涵丰富的新型师范学院。
+</div>
+		<p></p>
+		<div class="jianjie-biaoti3"><a href="生活区.html"> 生活区</a></div>
+		<div class="jianjie-tupian"><p><img src="image/宿舍.jpg"align="right" alt="学校的湖" width="240px" height="140" /></p></div>
+	  <div class="jianjie-neirong">沧海横流，有那么几座楼始终矗立在那里，它永远是师院学子的依靠。就像孩子依赖着肩膀；诗人依赖着月亮；海豚依赖着海洋……这就是我们的宿舍和餐厅，启辰公寓和聚华公寓为学子们提供了舒适的休息地，启辰餐厅和聚华餐厅是学习们必去的用餐地。
+</div>
+		<p></p></br>
+	<p></p>
+	<div class="jianjie-biaoti3"><a href="休闲区.html"> 休闲区</a></div>
+		<div class="jianjie-tupian"><p><img src="image/休闲区/操场.jpg"align="right" alt="学校的湖" width="240px" height="140" /></p></div>
+	  <div class="jianjie-neirong">师院学子风华正茂，书生意气。朋友，你看运动场上，那奔跑的身影抛洒着生活的烦恼，那动人的嬉笑声是三五好友正在分享趣事，足球场、排球场、篮球场上的运动健儿们挥洒着汗水，享受进球的成功感。青春，是那么的迷人，那么令人热血，我们热爱生活，把握青春，在师院成长。</div>
+	</div>
+	<p></p></br>
+<p></p></br>
+<p></p>
+	<table width="1000" border="0" align="center">
+  <tr>
+    <td><DIV id=demo style="OVERFLOW: hidden; WIDTH: 1000px; COLOR: #ffffff; HEIGHT: 130px">
+            <TABLE cellPadding=0 width=100% align=left border=0 cellspace=0>
+              <TBODY>
+              <TR>
+<!--------------------demo1--------------------->
+              	<TD id=demo1 vAlign=top>
+                  <TABLE cellSpacing=1 cellPadding=1>
+                    <TBODY>
+                    <TR vAlign=top>
+                      <TD vAlign=top noWrap>
+                        <DIV align=right>
+                        <TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+                          <TBODY>
+                          <TR>
+                            <TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98  src="image/竖1.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+                            <TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/竖2.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+                            <TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/竖4.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+                            <TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/竖5.jpg" width=130 border=0>
+                                </A></TD></TR>
+                               </TBODY></TABLE></TD>
+								<TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/竖8.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+								<TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/竖9.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+								<TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/横8.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+								<TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/横7.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+								<TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/横1.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+								<TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/休闲区/操场.jpg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+								<TD align=middle>
+                              <TABLE cellSpacing=0 cellPadding=0 width=150 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle height=100>
+                                <A href="#" target=_blank>
+                                <IMG height=98 src="image/休闲区/1544350359768.jpeg" width=130 border=0>
+                                </A></TD></TR>
+                                </TBODY></TABLE></TD>
+                                </TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD>
+								
+<!-------------------demo2--------------------->
+              	                <TD id=demo2 width="0"></TD>
+			      </TR></TBODY></TABLE>
+           </DIV>
+<!--------------------demo end------------------>
+<SCRIPT>
+var dir=1                 //每步移动像素，大＝快
+var speed=80               //循环周期（毫秒）大＝慢
+demo2.innerHTML=demo1.innerHTML
+function Marquee(){       //正常移动
+	if (dir>0  && (demo2.offsetWidth-demo.scrollLeft)<=0) demo.scrollLeft=0
+	if (dir<0 &&(demo.scrollLeft<=0)) demo.scrollLeft=demo2.offsetWidth
+	demo.scrollLeft+=dir
+	demo.onmouseover=function() {clearInterval(MyMar)}             //暂停移动
+	demo.onmouseout=function() {MyMar=setInterval(Marquee,speed)}  //继续移动
+}
+var MyMar=setInterval(Marquee,speed)
+</SCRIPT> </td>
+  </tr>
+</table>
+	<div class="banquan">
+		地址：山西省晋中市榆次区大学街319号</br>
+				  邮编：030619
+				  </div>
+</body>
+</html>
